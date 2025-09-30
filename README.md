@@ -34,5 +34,4 @@ Database Setup
 2) Create tables in the database & insert sample data. Run the following to create tables from schema.sql and sample data from data.sql
    psql -U cinema_user -d cinema_booking -f schema.sql
   psql -U cinema_user -d cinema_booking -f data.sql
-
-3) 
+ 
