@@ -10,5 +10,4 @@ public class Show {
     private LocalDateTime show_time;
     private int available_seats;
     private int booked_seats;
-
 }
