@@ -15,7 +15,7 @@ Tech Stack
 
 Structure
 cinema-booking-app/
-│── src/  # Java source code
+\n│── src/  # Java source code
   │── entity  Data access objects
   │── services database connection, movie listing, show listing, booking management
 │── pom.xml             # Maven dependencies
