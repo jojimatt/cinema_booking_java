@@ -4,7 +4,8 @@ CREATE TABLE movies (
     genre VARCHAR(50),
     duration INT,
     language VARCHAR(50),
-    rating DECIMAL(2,1)
+    rating DECIMAL(2,1),
+    director VARCHAR(50)
 );
 
 CREATE TABLE screens (
