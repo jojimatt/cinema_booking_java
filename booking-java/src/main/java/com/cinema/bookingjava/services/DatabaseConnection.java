@@ -10,7 +10,7 @@ public class DatabaseConnection {
 
     public static Connection getConnection() throws SQLException {
         Properties props = new Properties();
-        try(FileInputStream fis = new FileInputStream("config.properties")){
+        try(FileInputStream fis = new FileInputStream("/Users/jojimathew/projects/cinema_booking_java/booking-java/config.properties")) {
             props.load(fis);
         }
         catch(Exception e){
